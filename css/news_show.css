@@ -1,0 +1,182 @@
+ html,body,p,ul,li,ol,table,tr,td,form{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.zhongjian{
+	width: 1000px;
+	height: 900px;
+	margin: auto;
+}
+.zhongjian_laft{
+	width: 680px;
+	height: 860px;
+	/*background: green;*/
+	float: left;
+}
+.zhongjian_laft1-1{
+    height: 72px;
+}
+.zhongjian_laft1-2{
+	margin: auto;
+	width: 664px;
+	height: 37px;
+	background: red;
+}
+.zhongjian_laft1-2 p{
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.zhongjian_laft1-3{
+    margin: auto;
+    width: 664px;
+    height: 45px;
+    /*background: yellow;*/
+}
+.zhongjian_laft1-3 p{
+    font-size: 13px;
+    padding-top: 7px;
+}
+.zhongjian_bg{
+	margin: auto;
+	width: 664px;
+	height: 414px;
+	background: url(../img/heying.png) no-repeat;
+}
+.zhongjian_laft1-4{
+	width: 664px;
+	height: 188px;
+	/*background: yellow;*/
+}
+.zhongjian_laft1-4 p{
+    font-size: 13px;
+    line-height: 23px;
+}
+.zhongjian_laft1-5 ul{
+    width: 664px;
+    height: 21px;
+    /*background: rebeccapurple;*/
+    margin-top: -11px;
+}
+.zhongjian_laft1-5 p{
+	width: 664px;
+	height: 17px;
+	/*background: red;*/
+	font-size: 12px;
+}
+.zhongjian_laft1-5 ul li{
+    float: left;
+    width: 83px;
+    height: 27px;
+    margin: 0 1px
+}
+.zhongjian_laft1-5 ul li a{
+	font-size: 10px;
+	
+}
+.zhongjian_laft1-5>ul>li:nth-child(1){
+	width: 42px;
+	height: 30px;
+
+}
+.zhongjian_laft1-5>ul>li:nth-child(2){
+    width: 49px;
+    height: 35px;
+    background: url(../img/xinlang.png) no-repeat;
+    padding-left: 18px;
+}
+.zhongjian_laft1-5>ul>li:nth-child(3){
+    width: 49px;
+    height: 35px;
+    background: url(../img/ico_tengxun.png) no-repeat;
+    padding-left: 18px;
+}
+.zhongjian_laft1-5>ul>li:nth-child(4){
+    width: 49px;
+    height: 35px;
+    background: url(../img/qq.png) no-repeat;
+    padding-left: 18px;
+}
+.zhongjian_laft1-5>ul>li:nth-child(5){
+    width: 49px;
+    height: 35px;
+    background: url(../img/ico_renren.png) no-repeat;
+    padding-left: 18px;
+}
+.zhongjian_laft1-5>ul>li:nth-child(6){
+    width: 49px;
+    height: 35px;
+    background: url(../img/ico_kaixin.png) no-repeat;
+    padding-left: 18px;
+}
+.zhongjian_laft1-5>ul>li:nth-child(7){
+    width: 49px;
+    height: 35px;
+    background: url(../img/ico_dou.png) no-repeat;
+    padding-left: 18px;
+}
+.zhongjian_laft1-5>ul>li:nth-child(8){
+    width: 49px;
+    height: 35px;
+    background: url(../img/ico_tao.png) no-repeat;
+    padding-left: 18px;
+}
+.zhongjian_laft1-5>ul>li:nth-child(9){
+    width: 49px;
+    height: 35px;
+    background: url(../img/ico_jia.png) no-repeat;
+    padding-left: 18px;
+}
+.zhongjian_laft1-5>ul>li:nth-child(10){
+    width: 43px;
+    height: 30px;
+    background: url(../img/ico_kuang.png) no-repeat;
+    text-align: center;
+}
+.zhongjian_laft1-6>p{
+    width: 664px;
+    height: 18px;
+    line-height: 10px;
+    margin-top: 1px;
+}
+.zhongjian_right{
+	width: 305px;
+	height: 860px;
+	/*background: gold;*/
+	float: right;
+}
+.neirong-tu2-2{
+	width: 280px;
+	height: 382px;
+    margin-left: 12px
+}
+.neirong-tu2-2 ul{
+ 	width: 300px;
+    height: 104px;
+	float: left;
+}
+.neirong-tu2-2 ul li{
+    width: 126px;
+    height: 94px;
+    background: url(../img/new_tu.png) no-repeat center;
+    float: left;
+    margin: 10px 6px;
+    line-height: 16px;
+    border: 1px solid gray;
+}
+.neirong-tu2-2 ul li p{
+    margin-top: 93px;
+    font-size: 14px;
+    color: black;
+}
+.neirong-tu2-2 ul li:hover p{
+	color: red;
+}

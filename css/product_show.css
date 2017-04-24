@@ -1,0 +1,92 @@
+ html,body,p,ul,li,ol,table,tr,td,form{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+.zj{
+	width: 1000px;
+	height: 885px;
+	margin: auto;
+}
+.zj_weizi1_1{
+	widows: 1000px;
+	height: 30px;
+}
+.zj_weizi1_1{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 21px;
+}
+.zj_weizi1_2{
+	width: 1000px;
+	height: 30px;
+}
+.zj_weizi1_2 p{
+    margin-left: 30px;
+}
+.zj_weizi1_2 span{
+    font-size: 14px;
+    color: gray;
+}
+.zj_tu2_1{
+	width: 515px;
+	height: 80px;
+	margin: auto;
+	margin-top: 40px;
+}
+.zj_tu2_1 ul li{
+    width: 83px;
+    height: 72px;
+    background: url(../img/kuang1.gif) no-repeat;
+    float: left;
+    margin-left: 10px;
+    margin-top: 7px;
+    position: relative;
+}
+.zj_tu2_1 ul li p{
+    width: 37px;
+    height: 18px;
+    background: black;
+    color: white;
+    margin-top: 44px;
+    margin-left: 3px;
+    position: absolute;
+}
+.zj_tu2_1 ul li img{
+    width: 75px;
+    height: 40px;
+    float: left;
+    background-size: cover;
+    margin-left: 4px;
+    margin-top: 14px;
+}
+.zj_tu2_1 ul li:hover{
+	background: url(../img/kuang2.gif) no-repeat;
+}
+.zj_tu2_1 ul li:nth-child(1){
+	width: 13px;
+	height: 43px;
+	background: url(../img/jian_left.gif) no-repeat;
+	float: left;
+	margin-top: 20px;
+}
+.zj_tu2_1 ul li:nth-child(7){
+	width: 13px;
+	height: 43px;
+	background: url(../img/jian_right.gif) no-repeat;
+	float: right;
+    margin-top: 20px;
+}
+.zj_tu2_2{
+	width: 615px;
+	height: 676px;
+	background: url(../img/shu.png) no-repeat;
+	margin: auto;
+    margin-top: 27px;
+}

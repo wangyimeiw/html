@@ -1,0 +1,449 @@
+ html,body,p,ul,li,ol,table,tr,td,form{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+ul{
+	list-style: none;
+}
+.hert{
+	width: 100%;
+	min-width: 1000px;
+	height: 180px;
+	background:url(../img/top_bg.gif);
+	background-repeat:repeat-x;
+}
+.hert1{
+	margin: auto;
+	width: 1000px;
+	height: 180px;
+	background:url(../img/lgbj.png);
+}
+.hert1-1 ul{
+	margin-left: 100px;
+}
+.hert1-1 ul li{
+	float: left;
+    margin: 0px 1px;
+    width: 100px;
+    height: 20px;
+}
+.hert1-1 ul li a{
+	font-family: "微软雅黑";
+	font-size: 15px;
+	font-weight: bold;
+	color: black;
+}
+.hert1-1 ul li:hover a{
+	color: red;
+}
+.hert1-1 ul li:hover span{
+	color: black;
+}
+.hert1-1 ul li span{
+	display: block;
+	font-size: 10px;
+	color: gray;
+	font-weight: 100;
+}
+
+.hand{
+	width: 100%;
+	min-width: 1000px;
+	height: 465px;
+	background: url(../img/mn.gif) center;
+	background-repeat:repeat-x ;
+	position: relative;
+	/*相对定位*/
+}
+.one2{
+	width: 100%;
+	min-width: 1000px;
+	height: 465px;
+	transition: 1s;
+}
+.one2:nth-child(1){
+	width: 100%;
+	min-width: 1000px;
+	height: 465px;
+    background: url(../img/2013022060299565.jpg);
+    position: absolute;
+}
+.one2:nth-child(2){
+	width: 100%;
+	min-width: 1000px;
+	height: 465px;
+    background: url(../img/2013032745130797.jpg);
+    position: absolute;
+}
+.one2:nth-child(3){
+	width: 100%;
+	min-width: 1000px;
+	height: 465px;
+    background: url(../img/2013040355166017.jpg);
+    position: absolute;
+}
+.one2:nth-child(4){
+	width: 100%;
+	min-width: 1000px;
+	height: 465px;
+    background: url(../img/mn.gif);
+    position: absolute;
+}
+
+.hand1 ul{
+    width: 1000px;
+    height: 34px;
+    left: 50%;
+    margin-left: -500px;
+    position: absolute;
+    margin-top: 432px;
+}
+.hand1 ul li{
+	width: 222px;
+    height: 34px;
+    float: left;
+    font-size: 15px;
+   
+    line-height: 34px;
+    background: rgba(0,0,0,0.5);
+            /*rgba半透明*/
+    text-align: center;
+    margin: 0 1px;
+}
+.hand1 ul li a{
+	color: white;
+}
+.hand1 ul li:hover{
+	background: red;
+}
+.hand1 ul li:nth-child(1){
+	width: 50px;
+	height: 34px;
+	background: url(../img/arr.png) no-repeat;
+	background-position: 0 0;
+	
+}
+.hand1 ul li:nth-child(6){
+	width: 50px;
+	height: 34px;
+	background: url(../img/arr.png) no-repeat;
+	background-position: -57px 0;
+	float: right;
+}
+.hand1 ul li:nth-child(1):hover{
+	background-position:0 -35px;
+}
+.hand1 ul li:nth-child(6):hover{
+	background-position:-57px -35px;
+}
+
+/*gbfdhbgfn*/
+#san1{
+	margin: auto;
+	width: 1000px;
+	height: 98px;
+	background: url(../img/qqt.png) no-repeat center;
+}
+#san1 ul li{
+	float: left;
+}
+#san1 ul li:nth-child(1){
+	width: 260px;
+    height: 98px;
+    margin-left: 262px;
+    margin-left: 0px;
+}
+#san1 ul li:nth-child(2){
+	width: 188px;
+    height: 98px;
+    margin-left: 262px;
+    margin-left: 0px;
+}
+#san1 ul li:nth-child(3){
+	width: 188px;
+    height: 98px;
+    margin-left: 262px;
+    margin-left: 0px;
+
+}
+#san1 ul li:nth-child(4){
+	width: 364px;
+    height: 98px;
+    margin-left: 262px;
+    margin-left: 0px;
+}
+.san1-1{
+	display: inline-block;
+    width: 260px;
+    height: 98px;
+}
+
+.san1-2{
+	display: inline-block;
+    width: 188px;
+    height: 98px;
+    margin-left: -7px;
+}
+.san2{
+	display: inline-block;
+    width: 188px;
+    height: 98px;
+    margin: 12px;
+    padding-top: 33px;
+}
+.san2-1{
+	display: inline-block;
+    width: 41px;
+    height: 41px;
+    margin-left: -7px;
+     margin-left: 17px;
+     border-radius: 100%;
+}
+.san2-2{
+	display: inline-block;
+    margin-left: -7px;
+    height: 41px;
+    width: 41px;
+    border-radius: 100%;
+}
+.san2-3{
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+    margin-left: -7px;
+    width: 42px;
+    border-radius: 100%;
+}
+.san1-4{
+	display: inline-block;
+    width: 364px;
+    height: 98px;
+    margin-left: -7px;
+}
+.weizi{
+	margin: auto;
+	width: 1000px;
+	height: 50px;
+}
+.weizi p{
+    margin-left: 18px;
+    padding-top: 28px;
+    font-weight: bold;
+}
+/*中间内容开始*/
+.weizi p span{
+	font-size: 14px;
+    font-weight: 200;
+    color: gray;
+}
+.neirong{
+	margin: auto;
+	width: 1000px;
+	height: 820px;
+}
+/*左边内容*/
+.neirong-zuo{
+	float: left;
+	width: 680px;
+	height: 820px;
+}
+.neirong-zuo ul li{
+    width: 680px;
+    height: 75px;
+    border-bottom: 1px dashed grey;
+    margin-top: 4px;
+}
+.neirong-zuo ul li a{
+	color: black;
+	height: 80px;
+}
+
+.neirong-zuo-left{
+	width: 63px;
+	height: 63px;
+	background: url(../img/libg11.gif) no-repeat;
+	float: left;
+    margin-top: 5px;
+}
+.neirong-zuo-left p{
+	text-align: center;
+}
+.neirong-zuo-left p:nth-child(1){
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 微软雅黑;
+    color: #808080;
+}
+.neirong-zuo-left p:nth-child(2){
+    font-size: 10px;
+    font-weight: 100;
+}
+.neirong-zuo-right{
+    float: right;
+    width: 615px;
+    height: 63px;
+    margin-top: 5px;
+}
+.neirong-zuo-right p{
+	font-size: 12px;
+	margin-left: 12px;
+    line-height: 16px;
+	font-family: "宋体";
+}
+
+.neirong-zuo-right p:nth-child(1){
+	font-size: 14px;
+	font-weight: bold;
+}
+.neirong ul li:hover a .neirong-zuo-left{
+	background-position: 0 -65px;
+}
+.neirong ul li:hover a .neirong-zuo-left p{
+	color: white;
+}
+
+.neirong-you{
+	width: 310px;
+	height: 820px;
+	float: right;
+}
+.neirong-tu1-1{
+	width: 290px;
+	height: 33px;
+	background:url(../img/libg16.gif);
+}
+.neirong-tu1-1 p{
+    color: white;
+    font-size: 17px;
+    padding-top: 9px;
+    padding-left: 35px;
+    font-weight: bold;
+}
+.neirong-tu1-2{
+	width: 280px;
+	height: 478px;
+    margin-left: 12px
+}
+.neirong-tu1-2 ul{
+ 	width: 300px;
+    height: 104px;
+	float: left;
+}
+.neirong-tu1-2 ul li{
+    width: 126px;
+    height: 94px;
+    background: url(../img/new_tu.png) no-repeat center;
+    float: left;
+    margin: 10px 6px;
+    line-height: 16px;
+    border: 1px solid gray;
+}
+.neirong-tu1-2 ul li p{
+    margin-top: 93px;
+    font-size: 14px;
+    color: black;
+}
+.neirong-tu1-2 ul li:hover p{
+	color: red;
+}
+.neirong-tu1-3{
+	width: 286px;
+	height: 308px;
+}
+.neirong-you-tu{
+    float: left;
+    width: 18px;
+    height: 23px;
+    margin-top: 11px;
+    background: url(../img/libg5.gif);
+}
+.neirong-you1-1 ul{
+    width: 290px;
+    height: 180px;
+}
+.neirong-you1-1 ul li{
+   margin-top: 10px;
+
+}
+.neirong-you1-1 ul li:hover .neirong-you-2{
+	width: 265px;
+	height: 23px;
+    background: red;
+}
+.neirong-you1-1 ul li:hover .neirong-you-tu{
+    background-position: 0px 27px;
+}
+.neirong-you1-1 ul li:hover .neirong-you-2 a p{
+	color: white;
+}
+.neirong-you-2{
+    float: left;
+    /* background: green; */
+    margin-top: 11px;
+    width: 250px;
+    padding-left: 5px;
+    height: 23px;
+    line-height: 24px;
+    font-size: 14px;
+}
+.eirong-you-2 a:hover p{
+	color: white;
+}
+.shuzi{
+	 width: 1000px;
+	 height: 55px;
+	 margin: auto;
+
+}
+.shuzi1-1{
+	width: 281px;
+	height: 27px;
+	float: left;
+}
+.shuzi1-1 ul{
+	text-align: center;
+}
+.shuzi1-1 ul li{
+    width: 22px;
+    height: 26px;
+    float: left;
+    margin: 0 1px;
+    border: 1px solid gray;
+}
+.shuzi1-1 ul li a{
+	color: gray;
+}
+.shuzi1-1 ul li:nth-child(1){
+	width: 50px;
+    height: 26px;
+    float: left;
+}
+.shuzi1-1 ul li:nth-child(6){
+	width: 50px;
+    height: 26px;
+}
+.shuzi1-1 ul li:nth-child(7){
+	width: 65px;
+    height: 26px;
+    float: right;
+}
+.shuzi1-1 ul li:hover{
+	background: red;
+}
+.shuzi1-1 ul li:hover a{
+	color: white;
+}
+.shuzi1-2{
+	width: 100px;
+	height: 20px;
+	float: right;
+	background: gray;
+}
+.shuzi1-2 a{
+	color: white;
+	font-size: 15px;
+}
